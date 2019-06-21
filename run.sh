@@ -1,0 +1,1 @@
+docker run -tid -v $PWD/volume/config:/etc/robozonky -e "CONFIG_DIRECTORY=/etc/robozonky" robozonky/robozonky
